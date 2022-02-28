@@ -13,10 +13,9 @@ def cambiarMayus(cadena):
 def multiText(nVeces, cadena):
     newCadena=nVeces*cadena
     return newCadena
-
-'''def lineaAlinea(cadena):
-    for i in cadena:
-        newCadena=i
-        if i ==' ':
-            newCadena=newCadena+"\t"
-    return newCadena'''
+def saludo(nombre):
+    return 'hola ', nombre, ' como estas?'
+def despedida(nombre):
+    return 'Adios ', nombre, ' nos vemos pronto'
+def datos(nombreCompleto, id, codigo):
+    return 'tu nombre es: ', nombreCompleto, ' tu numero de identificacion es: ', id, ' y tu codigo es: ', codigo 
