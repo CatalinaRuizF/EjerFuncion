@@ -9,3 +9,5 @@ print(txt.contarCaract("c","ca-ce-ci-co-cu"))
 print(txt.cambiarMayus("coca-cola"))
 print (txt.cambiarMinus("PEPSI"))
 print (txt.multiText(4,"*********-------"))
+
+######
